@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/d45737878d.js" crossorigin="anonymous"></script>
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--TITULO-->
+    <title>Proyecto DC-Marvel</title>
+</head>
+<body>
+    <nav id="nav">
+        <a href="javascript:location.reload()"><img src="./assets/img/universuslogo.png" alt="logo"></a>
+        <div class="menu">
+            <div class="submenu"><a href="#acerca">Acerca</a></div>
+            <div class="submenu"><a href="#contacto">Contacto</a></div>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <div class="combate">
+                <!--HEROE 1-->
+                <section class="heroe1">
+                    <div class="ficha1">
+                        <div id="heroe1"></div>
+                        <div id="nombre1"></div>
+                            <hr>
+                        <div id="nombreReal1"></div>
+                        <div id="alterEgo1"></div>
+                            <hr>
+                        <div id="primeraAparicion1"></div>
+                        <div id="publicacion1"></div>
+                    </div>
+                    <!--STATS HEROE 1-->
+                    <div class="stats1">
+                        <h2>PowerStats!</h2>
+                        <hr style="color: white">
+                        <div id="int1"></div>
+                        <div id="str1"></div>
+                        <div id="spd1"></div>
+                        <div id="dur1"></div>
+                        <div id="pow1"></div>
+                        <div id="comb1"></div>
+                    </div>
+                </section>
+                <!--VERSUS-->
+                <div class="vs">
+                    <a href="javascript:location.reload()"><img src="./assets/img/versus.png" alt="VS"></a>
+                </div>
+                <!--HEROE 2-->
+                <section class="heroe2">
+                    <div class="ficha2">
+                        <div id="heroe2"></div>
+                        <div id="nombre2"></div>
+                            <hr>
+                        <div id="nombreReal2"></div>
+                        <div id="alterEgo2"></div>
+                            <hr>
+                        <div id="primeraAparicion2"></div>
+                        <div id="publicacion2"></div>
+                    </div>
+                    <!--STATS HEROE 2-->
+                    <div class="stats2">
+                        <h2>PowerStats!</h2>
+                        <hr style="color: white">
+                        <div id="int2"></div>
+                        <div id="str2"></div>
+                        <div id="spd2"></div>
+                        <div id="dur2"></div>
+                        <div id="pow2"></div>
+                        <div id="comb2"></div>
+                    </div>
+                </section>
+                <div class="indicaciones">
+                    <p>Pulsa el botón </p><img src="./assets/img/versus.png" alt="vs"><p> para una nueva batalla</p>
+                </div>
+            </div>
+        </header>
+        <!--SECCION ACERCA DE-->
+        <article id="acerca">
+            <div class="historia">
+                <div class="foto">
+                    <img src="./assets/img/simpsons.jpg" alt="foto retrato">
+                </div>
+                <div class="acerca">
+                    <h3>Acerca</h3>
+                    <hr style="color: yellow">
+                    <p>¡Hola a todos! Mi nombre es Sebastián Araos y ¡me encantan los comics! Desde pequeño jugaba con mis amigos un juego de mesa, específicamente de cartas, llamado Versus System. Podíamos pasar horas jugándolo, mezclando los universos de Marvel y DC, teniendo batallas ¡EPICAS!</p>
+                    <p>Por un tiempo dejaron de venderlas en Chile y nosotros crecimos. Sin embargo, el gusto por los comics nunca desapareció. Hace poco encontré una API de superhéroes, y al instante se me vino a la mente la idea de esta página, por tiempo no lo había hecho hasta ahora (Que tengo una razón de peso para hacerla... y tiempo).</p>
+                    <p>Esta Api es muy genial, porque mezcla no solo personajes de historietas, sino que también de algunas series de televisión y peliculas, las combinaciones son ¡INFINITAS! ¡Espero que lo disfruten!</p>
+                    <p>FUENTE API: <a target="_blank" href="https://superheroapi.com/">https://superheroapi.com/</a></p>
+                </div>
+            </div>
+        </article>
+        <!--SECCION DE CONTACTO-->
+        <div class="fondo">
+            <section class="contacto" id="contacto">
+                <div>
+                    <h3>Contacto</h3>
+                    <hr>
+                    <h4>Redes Sociales</h4>
+                    <div class="redes">
+                        <a target="_blank" href="https://zevaztian-portfolio.web.app/"><i class="fas fa-globe"></i></a>
+                        <a target="_blank" href="https://artbookzeta.tumblr.com/"><i class="fab fa-tumblr-square"></i></a>
+                        <a target="_blank" href="https://github.com/Zevaztian33"><i class="fab fa-github-square"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sebastianaraosolguin/"><i class="fab fa-linkedin"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/zevaztian.araoz"><i class="fab fa-facebook-square"></i></a>
+                        <a target="_blank" href="https://twitter.com/zevaraoz"><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <a href="#nav"><img src="./assets/img/universuslogo.png" alt="logofooter"></a>
+        <p>All Rights Reserved © 2021 Sebastian Araos</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
