@@ -64,6 +64,7 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    flex-basis: 500px;
 }
 
 .ficha1, .ficha2{
@@ -167,7 +168,7 @@ a{
 }
 
 .acerca{
-    flex-basis: 1000px;
+    flex-basis: 800px;
 }
 
 /*----CONTACTO----*/
